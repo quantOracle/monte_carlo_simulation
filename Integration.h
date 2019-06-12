@@ -1,5 +1,5 @@
-#ifndef __MONTECARLOINTEGRATION_H_
-#define __MONTECARLOINTEGRATION_H_
+#ifndef __INTEGRATION_H_
+#define __INTEGRATION_H_
 template <class T>
 class MathFunction;
 class MonteCarloIntegration {
@@ -16,4 +16,5 @@ public:
  MathFunction<double> &m_f;
  int m_numSamples;
 };
-#endif /* MONTECARLOINTEGRATION_H_ */
+#endif /* __INTEGRATION_H_ */
+
